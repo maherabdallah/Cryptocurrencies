@@ -18,7 +18,7 @@ The company has asked us to create a report that includes what cryptocurrencies 
 
 - To determine the correct number of clusters to use in our machine learning model, we plotted an elbow curve
 - From our elbow curve, we determined the best number of clusters is 4
-<br>
+
 <br>
 
 ## Visualizing Cryptocurrencies Results
@@ -26,14 +26,14 @@ The company has asked us to create a report that includes what cryptocurrencies 
 
 ![Cryptocurrencies Analysis - 3D Scatter](images/3d_scatter.png)
 - Using the PCA algorithm with three principal components, we observed four distinct clusters of cryptocurrencies in our 3D scatter plot model
-<br>
+
 <br>
 
 ### Table of Tradable Cryptocurrencies
 
 
 ![Cryptocurrencies Analysis - Tradable Table](images/tradable_table.png)
-<br>
+
 <br>
 
 ### TotalCoinsMined vs TotalCoinSupply Scatter Plot 
@@ -44,6 +44,6 @@ The company has asked us to create a report that includes what cryptocurrencies 
 - A 2D scatter plot was generated, with the x-axis of TotalCoinsMined and TotalCoinSupply on the y-axis
 - Unfortunately, this scatter plot does not distinctly visualize all clusters appropriately
 
-## Summary
+# Summary
 
 From our findings using an unsupervised machine learning model, we concluded there are a total of 532 tradable cryptocurrencies. These tradable cryptocurrencies were all split between 4 clusters, which was made known using an elbow curve plot to identify the correct amount. The 3D scatter plot depicts each cluster using 3 principal components.
